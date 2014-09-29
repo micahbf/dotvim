@@ -3,8 +3,6 @@ set nocompatible
 syntax on
 filetype plugin indent on
 
-" prevent vim from adding that stupid empty line at the end of every file
-set noeol
 set binary
 
 " utf-8/unicode support
@@ -27,7 +25,7 @@ set wildmenu            " enhanced command completion
 set visualbell          " use visual bell instead of beeping
 set laststatus=2        " always show the status line
 "set listchars=tab:▷⋅,trail:·,eol:$
-set listchars=tab:▷⋅,trail:·
+set listchars=tab:▷⋅,trail:·,nbsp:☠
 set list
 
 " highlight spell errors
@@ -51,8 +49,8 @@ set modelines=5         " number of lines to check for vim: directives at the st
 "set fixdel                 " fix terminal code for delete (if delete is broken but backspace works)
 set autoindent          " automatically indent new line
 
-set ts=4                " number of spaces in a tab
-set sw=4                " number of spaces for indent
+set ts=2                " number of spaces in a tab
+set sw=2                " number of spaces for indent
 set et                  " expand tabs into spaces
 
 set ttimeoutlen=50      " fast Esc to normal mode

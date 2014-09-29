@@ -37,7 +37,8 @@ Bundle 'austintaylor/vim-indentobject'
 " global search & replace
 Bundle 'greplace.vim'
 " better looking statusline
-Bundle 'astrails/vim-powerline'
+" Bundle 'astrails/vim-powerline'
+Bundle 'bling/vim-airline'
 " plugin for resolving three-way merge conflicts
 Bundle 'sjl/splice.vim'
 " plugin for visually displaying indent levels
@@ -76,7 +77,9 @@ Bundle 'nelstrom/vim-textobj-rubyblock'
 " ruby refactoring
 Bundle 'ecomba/vim-ruby-refactoring'
 " apidock.com docs integration
-Bundle 'apidock.vim'
+" Bundle 'apidock.vim'
+" Dash docs integration
+Bundle 'rizzatti/dash.vim'
 " toggle ruby blocks style
 Bundle 'vim-scripts/blockle.vim'
 " lightweight Rspec runner for Vim
@@ -86,6 +89,7 @@ Bundle 'josemarluedke/vim-rspec'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tpope/vim-vividchalk'
 Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+Bundle 'chriskempson/base16-vim'
 
 " syntax support
 Bundle 'vim-ruby/vim-ruby'

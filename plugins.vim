@@ -157,3 +157,5 @@ call unite#filters#matcher_default#use(['matcher_fuzzy'])
 
 " vim-rspec
 map <Leader>r :call RunNearestSpec()<CR>
+
+nmap <silent> <leader>d <Plug>DashSearch
