@@ -1,1 +1,20 @@
+set background=dark
 colorscheme base16-default
+
+" Auto relative line toggling per http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movemento/
+
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set number
+  else
+    set relativenumber
+  endif
+endfunc
+
+nnoremap <C-l> :call NumberToggle()<cr>
+
+:au FocusLost * :set number
+:au FocusGained * :set relativenumber
+
+autocmd InsertEnter * :set number
+autocmd InsertLeave * :set relativenumber
