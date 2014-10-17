@@ -13,7 +13,7 @@ Bundle 'jistr/vim-nerdtree-tabs'
 " commenting
 Bundle 'scrooloose/nerdcommenter'
 " fuzzy file open
-Bundle 'kien/ctrlp.vim'
+Bundle 'ctrlpvim/ctrlp.vim'
 " popup completion menu
 Bundle 'AutoComplPop'
 " tags list navigation

@@ -159,3 +159,5 @@ call unite#filters#matcher_default#use(['matcher_fuzzy'])
 map <Leader>r :call RunNearestSpec()<CR>
 
 nmap <silent> <leader>d <Plug>DashSearch
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim

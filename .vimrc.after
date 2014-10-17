@@ -1,5 +1,5 @@
 set background=dark
-colorscheme base16-default
+colorscheme base16-tomorrow
 
 " Auto relative line toggling per http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movemento/
 
