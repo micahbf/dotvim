@@ -25,6 +25,7 @@ nmap <leader>p :NERDTreeFind<CR>
 
 " nerdcommenter
 " ,/ to invert comment on the current line/selection
+let g:NERDSpaceDelims = 1
 nmap <leader>/ :call NERDComment(0, "invert")<cr>
 vmap <leader>/ :call NERDComment(0, "invert")<cr>
 
@@ -69,6 +70,7 @@ nmap <leader>l :CtrlPLine<cr>
 nmap <leader>b :CtrlPBuff<cr>
 nmap <leader>m :CtrlPBufTag<cr>
 nmap <leader>M :CtrlPBufTagAll<cr>
+nmap <leader>g :CtrlPTag<cr>
 
 let g:ctrlp_clear_cache_on_exit = 1
 " ctrlp leaves stale caches behind if there is another vim process runnin
@@ -95,7 +97,7 @@ let g:ctrlp_extensions = ['tag', 'buffertag', 'quickfix', 'mixed', 'line']
 
 " Fugitive
 " ,g for Ggrep
-nmap <leader>g :silent Ggrep<space>
+" nmap <leader>g :silent Ggrep<space>
 
 " ,f for global git serach for word under the cursor (with highlight)
 nmap <leader>f :let @/="\\<<C-R><C-W>\\>"<CR>:set hls<CR>:silent Ggrep -w "<C-R><C-W>"<CR>:ccl<CR>:cw<CR><CR>
