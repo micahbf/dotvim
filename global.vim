@@ -93,3 +93,6 @@ runtime macros/matchit.vim
 
 let mapleader = "\<Space>"
 let maplocalleader = "\\"
+
+" no escape
+imap jk <Esc>

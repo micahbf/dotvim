@@ -66,7 +66,7 @@ let g:yankring_history_dir = '~/.backup'
 "nmap <unique> <silent> <Leader>. :CommandTFlush<CR>:CommandT<CR>
 "let g:CommandTMatchWindowAtTop=1
 
-let g:ctrlp_map = '<leader>,'
+let g:ctrlp_map = '<leader><leader>'
 let g:ctrlp_cmd = 'CtrlP'
 
 nmap <leader>. :CtrlPClearCache<cr>:CtrlP<cr>
