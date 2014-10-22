@@ -1,3 +1,7 @@
+" airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
+
 " showmarks
 let g:showmarks_enable = 0 " disabled by default by populardemand ;)
 hi! link ShowMarksHLl LineNr
@@ -31,7 +35,7 @@ vmap <leader>/ :call NERDComment(0, "invert")<cr>
 
 " ,t to show tags window
 let Tlist_Show_Menu=1
-nmap <leader>t :TlistToggle<CR>
+" nmap <leader>t :TlistToggle<CR>
 
 " sessionman
 nmap <leader>S :SessionList<CR>
@@ -66,11 +70,11 @@ let g:ctrlp_map = '<leader>,'
 let g:ctrlp_cmd = 'CtrlP'
 
 nmap <leader>. :CtrlPClearCache<cr>:CtrlP<cr>
-nmap <leader>l :CtrlPLine<cr>
+nmap <leader>i :CtrlPLine<cr>
 nmap <leader>b :CtrlPBuff<cr>
 nmap <leader>m :CtrlPBufTag<cr>
 nmap <leader>M :CtrlPBufTagAll<cr>
-nmap <leader>g :CtrlPTag<cr>
+nmap <leader>t :CtrlPTag<cr>
 
 let g:ctrlp_clear_cache_on_exit = 1
 " ctrlp leaves stale caches behind if there is another vim process runnin

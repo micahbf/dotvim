@@ -90,3 +90,13 @@ nnoremap tt  :tabedit<Space>
 nnoremap tn  :tabnew<CR>
 nnoremap tm  :tabm<Space>
 nnoremap td  :tabclose<CR>
+
+" buffer madness
+nmap <leader>l :bnext<CR>
+nmap <leader>h :bprevious<CR>
+nmap <leader>bn :enew<CR>
+nmap <leader>bq :bp <BAR> bd #<CR>
+nmap <leader>bl :ls<CR>
+
+" goto definition
+nnoremap <leader>g <C-]>
