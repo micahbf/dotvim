@@ -164,6 +164,9 @@ let g:unite_source_file_mru_long_limit = 100
 let g:unite_source_directory_mru_long_limit = 100
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 
+" gitgutter
+let g:gitgutter_map_keys = 0
+
 " vim-rspec
 map <Leader>r :call RunNearestSpec()<CR>
 
