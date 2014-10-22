@@ -87,7 +87,10 @@ let g:ctrlp_max_height = 40
 let g:ctrlp_switch_buffer = 1
 
 " if in git repo - use git file listing command, should be faster
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files --exclude-standard -cod']
+" let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files --exclude-standard -cod']
+
+" use ag for ctrlp
+let g:ctrlp_user_command = 'ag %s -g "" -l'
 
 " open multiple files with <c-z> to mark and <c-o> to open. v - opening in
 " vertical splits; j - jump to first open buffer; r - open first in current buffer
